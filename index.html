@@ -1,39 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Jenkins GitHub Demo</title>
+    <title>My Simple Website</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            text-align: center;
-            padding-top: 100px;
         }
-        h1 {
-            color: #2c3e50;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-        .box {
-            background: white;
-            padding: 30px;
-            width: 400px;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+
+```
+    header {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #555;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+```
+
 </head>
+
 <body>
 
-<div class="box">
-    <h1>🚀 Jenkins + GitHub</h1>
-    <p>This HTML file was pushed using <b>Jenkins</b>.</p>
-    <p>Author: Deva Prasanth</p>
-</div>
+```
+<header>
+    <h1>My Website</h1>
+    <p>Welcome to my simple HTML page</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <h2>Main Content</h2>
+    <p>This is the body section of the webpage.</p>
+</main>
+
+<footer>
+    <p>© 2025 My Website</p>
+</footer>
+```
 
 </body>
 </html>
